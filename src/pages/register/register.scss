@@ -1,0 +1,83 @@
+.register{
+    background-color: rgb(193,190,255);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .card{
+        background: white;
+        min-height: 400px;
+        display: flex;
+        width: 50%;
+        border-radius: 40px;
+        .left{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 40px;
+            gap: 20px;
+
+            h1{
+                color: rebeccapurple;
+                font-size: 50px;
+            }
+
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                input{
+                    padding: 10px 5px;
+                    border: none;
+                    border-bottom: 1px solid rebeccapurple;
+                    outline: none;
+                }
+                button{
+                    padding: 10px;
+                    border: none;
+                    background-color: rgb(131, 95, 168);
+                    color: white;
+                    font-weight: bold;
+                    font-size: large;
+                    letter-spacing: 2px;
+                    border-radius: 40px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .right{
+            border-radius: 0 40px  40px 0;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            justify-content: center;
+            padding: 40px;
+            color: white;
+            background: linear-gradient(rgba(140, 75, 205, 0.5), rgba(0,0,0,0.7)), url(https://asianwiki.com/images/a/aa/Welcome_to_Samdalri-p2.jpg) center;
+            background-size: cover;
+            h1{
+                font-size: 50px;
+                line-height: 50px;
+            }
+            p{
+
+            }
+            span{
+
+            }
+            button{
+                width: 50%;
+                padding: 10px;
+                border-radius: 40px;
+                border: none;
+                font-weight: bold;
+                letter-spacing: 2px;
+                color: rebeccapurple;
+                font-size: 15px;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+.login{
+    height: 100vh;
+    background-color: rgb(193,190,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .card{
+        display: flex;
+        background-color: white;
+        width: 50%;
+        border-radius: 20px;
+        min-height: 400px;
+        
+        .left{
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            color: white;
+            gap: 30px;
+            flex: 1;
+            // background: black;
+            background: linear-gradient(rgba(125, 48, 161, 0.7),rgba(0,0,0,0.7)), url('https://breathlesssurvival.files.wordpress.com/2023/11/screenshot_20231107_123724_instagram-1.jpg') center;
+            background-size: cover;
+            border-radius: 20px 0 0 20px;
+            h1{
+                font-size: 60px;
+                line-height: 60px;
+            }
+            p{
+                // font-size: 10px;
+            }
+            span{
+                font-size: 14px;
+            }
+            button{
+                width: 50%;
+                background-color: white;
+                color: rebeccapurple;
+                padding: 10px;
+                border: none;
+                font-weight: bold;
+                cursor: pointer;
+                border-radius: 20px;
+                letter-spacing: 2px;
+                font-size: 15px;
+
+            }
+
+        }
+        .right{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 20px 40px;
+            justify-content: center;
+            gap: 40px;
+
+            h1{
+                color: #9e70a6;
+                font-size: 45px;
+            }
+
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                input{
+                    border: none;
+                    border-bottom: 1px solid rebeccapurple;
+                    padding: 10px 5px;
+                    outline: none;
+                    font-size: 15px;
+                }
+                button{
+                    padding: 10px;
+                    border: none;
+                    // width: 50%;
+                    background-color: rgb(141, 113, 169);
+                    color: white;
+                    font-weight:bold;
+                    border-radius: 40px;
+                    letter-spacing: 2px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
